@@ -1,0 +1,19 @@
+/* .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+} */
+       .container {
+            max-width: 1250px;
+            margin:auto;
+        }
+
+        .row {
+            width: 100%;
+            display: flex;
+            flex-wrap:wrap;
+        }
+
+        .col {
+            max-width:3%
+
+        }
